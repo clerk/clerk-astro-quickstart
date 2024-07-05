@@ -11,8 +11,8 @@
   <h1>
     Clerk and Astro Quickstart
   </h1>
-  <a href="https://www.npmjs.com/package/@clerk/clerk-js">
-    <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/clerk-js" />
+  <a href="https://www.npmjs.com/package/@clerk/astro">
+    <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/astro" />
   </a>
   <a href="https://discord.com/invite/b5rXHjAg7A">
     <img alt="Discord" src="https://img.shields.io/discord/856971667393609759?color=7389D8&label&logo=discord&logoColor=ffffff" />
