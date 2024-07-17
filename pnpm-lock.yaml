@@ -12,8 +12,8 @@ dependencies:
     specifier: ^8.3.2
     version: 8.3.2(astro@4.11.5)
   '@clerk/astro':
-    specifier: canary
-    version: 0.0.3-canary.v2e6afd1(astro@4.11.5)(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^1.0.0
+    version: 1.0.0(astro@4.11.5)(react-dom@18.3.1)(react@18.3.1)
   astro:
     specifier: ^4.11.5
     version: 4.11.5(typescript@5.5.3)
@@ -404,16 +404,16 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@clerk/astro@0.0.3-canary.v2e6afd1(astro@4.11.5)(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-Q9nKFwsyz4DWwQGFhRi+rquWdIUgV8kJCrSZHI/4LWFb2GkCPh8QIMhOmY3OnJAp4h7NHf3tgu8ILE/J9wJwLw==}
+  /@clerk/astro@1.0.0(astro@4.11.5)(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-BJ5wg20Gt4vZh+npbV9KQUpar5i74U/uP9Kyo6878yFGqT7DItorXcbaNb4E8xjtJ/Qmn9A5yS3LQhlr9NBeOQ==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       astro: ^3.2.0 || ^4.0.0
     dependencies:
-      '@clerk/backend': 1.3.2-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1)
-      '@clerk/clerk-js': 5.9.0-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1)
-      '@clerk/shared': 2.3.3-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1)
-      '@clerk/types': 4.8.0-canary.v2e6afd1
+      '@clerk/backend': 1.3.2(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/clerk-js': 5.9.0(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/shared': 2.3.3(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/types': 4.8.0
       astro: 4.11.5(typescript@5.5.3)
       nanoid: 5.0.7
       nanostores: 0.10.3
@@ -425,12 +425,12 @@ packages:
       - supports-color
     dev: false
 
-  /@clerk/backend@1.3.2-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-ti86Z8VfnxM1nnnlACEvRxOK49l4iC+PSDYWf9fA0oOU5Vca930srWfLbU9UoJc3O7o52bwHPgvSr7voSdpSYg==}
+  /@clerk/backend@1.3.2(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-PT/CejuGK0b7+iKFc59myFcYCEpTmqCjSjw7jG0G3fhBo8LWn+Pfv5f7udndrYI+RFP0Jbcv+2nnW6etHXErGA==}
     engines: {node: '>=18.17.0'}
     dependencies:
-      '@clerk/shared': 2.3.3-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1)
-      '@clerk/types': 4.8.0-canary.v2e6afd1
+      '@clerk/shared': 2.3.3(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/types': 4.8.0
       cookie: 0.5.0
       snakecase-keys: 5.4.4
       tslib: 2.4.1
@@ -439,16 +439,16 @@ packages:
       - react-dom
     dev: false
 
-  /@clerk/clerk-js@5.9.0-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-pIp3+C64slYcPggp6aX4XqlCtz7SUdQxI5VB0D8N9TMeC5bp923uv20hit8FxQ1+ih3qIFMsuI+UQl3roF1HyQ==}
+  /@clerk/clerk-js@5.9.0(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-lUpjXliPHHTCu5jGwDTFJvxIfrRw+8OnYsDcqzybPa1LrVMx5nwkRjDF7ewhjdChYZAiX71HLIdHZ42WB15yqQ==}
     engines: {node: '>=18.17.0'}
     peerDependencies:
       react: '>=18'
       react-dom: '>=18'
     dependencies:
-      '@clerk/localizations': 2.4.8-canary.v2e6afd1
-      '@clerk/shared': 2.3.3-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1)
-      '@clerk/types': 4.8.0-canary.v2e6afd1
+      '@clerk/localizations': 2.4.8
+      '@clerk/shared': 2.3.3(react-dom@18.3.1)(react@18.3.1)
+      '@clerk/types': 4.8.0
       '@emotion/cache': 11.11.0
       '@emotion/react': 11.11.1(react@18.3.1)
       '@floating-ui/react': 0.25.4(react-dom@18.3.1)(react@18.3.1)
@@ -468,15 +468,15 @@ packages:
       - supports-color
     dev: false
 
-  /@clerk/localizations@2.4.8-canary.v2e6afd1:
-    resolution: {integrity: sha512-ozSaZW2SgtJs90j/jZ3VKHuYLKuF/G3bhuNo7X1Q9MIhpqp+TYTAXCtBWmkJfLgjaYpAN6zCGBWKO9sMh2/3og==}
+  /@clerk/localizations@2.4.8:
+    resolution: {integrity: sha512-8ww3OMuqJjCHW6ocJqCoS4kJKpZlsCAfbIe/Rmzj8Vj8EkmtPHMj7iUsY6bUSgNocmuzyOKh98T25hs8XUZI3Q==}
     engines: {node: '>=18.17.0'}
     dependencies:
-      '@clerk/types': 4.8.0-canary.v2e6afd1
+      '@clerk/types': 4.8.0
     dev: false
 
-  /@clerk/shared@2.3.3-canary.v2e6afd1(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-D4Iy46/u0HLKX6oyubEp1vryjhpSR/hFmrNAlGIKkfPNu3pVJMWOxxg0zGF0H+VzO8WAaFCsWF0lI/jf6bmI1A==}
+  /@clerk/shared@2.3.3(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-shUmoHQNkaiQer2KS++RKXwgA1tqLAXdwFed/AmoHHqkF2jeBDYcJe14LDLveSqt2gzp6IAFcaz2IAZlWxENsw==}
     engines: {node: '>=18.17.0'}
     requiresBuild: true
     peerDependencies:
@@ -488,7 +488,7 @@ packages:
       react-dom:
         optional: true
     dependencies:
-      '@clerk/types': 4.8.0-canary.v2e6afd1
+      '@clerk/types': 4.8.0
       glob-to-regexp: 0.4.1
       js-cookie: 3.0.5
       react: 18.3.1
@@ -497,8 +497,8 @@ packages:
       swr: 2.2.5(react@18.3.1)
     dev: false
 
-  /@clerk/types@4.8.0-canary.v2e6afd1:
-    resolution: {integrity: sha512-9+hYv5AxotxagVRxnz7r2Dn6zp4FfAndbPkigeuQmCssS2C51sf2zAWX3nBI1dy02gA9gNDvyx1BLuNQGx3AtA==}
+  /@clerk/types@4.8.0:
+    resolution: {integrity: sha512-UjirfALJOWeuRSz+SvTujexlvIXvMC1VzvYlcNmSF0E9wcAcPJnzboLM+SlNTG7p1JMlL4bd0dipsFyWTJsq5A==}
     engines: {node: '>=18.17.0'}
     dependencies:
       csstype: 3.1.1
