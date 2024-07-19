@@ -37,12 +37,12 @@ After following the quickstart you'll have learned how to:
 
 Easily deploy the template to Vercel with the button below. You will need to set the required environment variables in the Vercel dashboard.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclerkinc%2Fclerk-astro-quickstart&env=PUBLIC_ASTRO_APP_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY&envDescription=Clerk%20API%20keys&envLink=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Fastro&redirect-url=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Fastro)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fclerk%2Fclerk-astro-quickstart&env=PUBLIC_ASTRO_APP_CLERK_PUBLISHABLE_KEY,CLERK_SECRET_KEY&envDescription=Clerk%20API%20keys&envLink=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Fastro&redirect-url=https%3A%2F%2Fclerk.com%2Fdocs%2Fquickstart%2Fastro)
 
 ## Running the template
 
 ```bash
-git clone https://github.com/clerkinc/clerk-astro-quickstart
+git clone https://github.com/clerk/clerk-astro-quickstart
 ```
 
 To run the example locally, you need to:
@@ -68,14 +68,14 @@ To learn more about Clerk and Astro, check out the following resources:
 
 ## Found an issue?
 
-If you have found an issue with the quickstart, please create an [issue](https://github.com/clerkinc/clerk-astro-quickstart/issues).
+If you have found an issue with the quickstart, please create an [issue](https://github.com/clerk/clerk-astro-quickstart/issues).
 
 If it's a quick fix, such as a misspelled word or a broken link, feel free to skip creating an issue.
-Go ahead and create a [pull request](https://github.com/clerkinc/clerk-astro-quickstart/pulls) with the solution. :rocket:
+Go ahead and create a [pull request](https://github.com/clerk/clerk-astro-quickstart/pulls) with the solution. :rocket:
 
 ## Want to leave feedback?
 
-Feel free to create an [issue](https://github.com/clerkinc/clerk-astro-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
+Feel free to create an [issue](https://github.com/clerk/clerk-astro-quickstart/issues) with the **feedback** label. Our team will take a look at it and get back to you as soon as we can!
 
 ## Connect with us
 
