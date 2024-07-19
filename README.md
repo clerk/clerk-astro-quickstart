@@ -42,7 +42,7 @@ Easily deploy the template to Vercel with the button below. You will need to set
 ## Running the template
 
 ```bash
-git clone https://github.com/clerkinc/clerk-astro-quickstart
+git clone https://github.com/clerk/clerk-astro-quickstart
 ```
 
 To run the example locally, you need to:
