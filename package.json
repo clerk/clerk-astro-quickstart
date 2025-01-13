@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/node": "^9.0.0",
+    "@astrojs/node": "^9.0.1",
     "@clerk/astro": "^2.1.2",
-    "astro": "^5.0.5",
+    "astro": "^5.1.6",
     "typescript": "^5.5.3"
   },
   "devDependencies": {
