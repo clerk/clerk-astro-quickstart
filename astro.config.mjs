@@ -1,12 +1,15 @@
-import { defineConfig } from 'astro/config';
-import node from "@astrojs/node";
-import clerk from '@clerk/astro';
+import { defineConfig } from 'astro/config'
+import node from '@astrojs/node'
+import clerk from '@clerk/astro'
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [clerk()],
-  output: "server",
+  output: 'server',
   adapter: node({
-    mode: "standalone"
-  })
-});
+    mode: 'standalone',
+  }),
+  server: {
+    allowedHosts: ['fawn-two-nominally.ngrok-free.app'],
+  },
+})
