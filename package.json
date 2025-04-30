@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@astrojs/node": "^9.2.1",
-    "@clerk/astro": "^2.6.8",
-    "@clerk/clerk-react": "^5.30.0",
-    "astro": "^5.7.5"
+    "@clerk/astro": "^2.6.9",
+    "@clerk/clerk-react": "^5.30.1",
+    "astro": "^5.7.10"
   }
 }
