@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/node": "^9.3.0",
-    "@clerk/astro": "^2.10.7",
-    "astro": "^5.11.2",
-    "typescript": "^5.8.3"
+    "@astrojs/node": "^9.4.3",
+    "@clerk/astro": "^2.11.11",
+    "astro": "^5.13.6",
+    "typescript": "^5.9.2"
   },
   "devDependencies": {
     "prettier": "^3.6.2",
