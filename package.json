@@ -9,14 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/node": "^9.4.4",
-    "@clerk/astro": "^2.13.6",
-    "astro": "^5.14.1",
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/node": "^9.5.1",
+    "@clerk/astro": "^3.0.0-canary.v20260114204908",
+    "astro": "^5.16.9",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "prettier": "^3.6.2",
+    "prettier": "^3.7.4",
     "prettier-plugin-astro": "^0.14.1"
   },
   "packageManager": "pnpm@9.14.2+sha512.6e2baf77d06b9362294152c851c4f278ede37ab1eba3a55fda317a4a17b209f4dbb973fb250a77abc463a341fcb1f17f17cfa24091c4eb319cda0d9b84278387"

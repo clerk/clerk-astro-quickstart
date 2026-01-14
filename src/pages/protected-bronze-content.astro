@@ -1,0 +1,17 @@
+---
+import { Show } from '@clerk/astro/components'
+---
+
+<!doctype html>
+<html>
+  <body>
+    <Show
+      when={{ plan: 'bronze' }}
+      slot="fallback"
+      fallback={(<p>Only subscribers to the Bronze plan can access this content.</p>)}
+    >
+      <h1>Exclusive Bronze Content</h1>
+      <p>This content is only visible to Bronze subscribers.</p>
+    </Show>
+  </body>
+</html>

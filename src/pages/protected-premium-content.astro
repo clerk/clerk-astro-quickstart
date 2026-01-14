@@ -1,0 +1,16 @@
+---
+import { Show } from '@clerk/astro/components'
+---
+
+<!doctype html>
+<html>
+  <body>
+    <Show
+      when={{ feature: 'premium_access' }}
+      fallback={(<p>Only subscribers with the Premium Access feature can access this content.</p>)}
+    >
+      <h1>Exclusive Premium Content</h1>
+      <p>This content is only visible to users with Premium Access feature.</p>
+    </Show>
+  </body>
+</html>
