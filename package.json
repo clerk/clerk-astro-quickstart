@@ -11,7 +11,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.6",
     "@astrojs/node": "^9.5.2",
-    "@clerk/astro": "^2.16.17",
+    "@clerk/astro": "3.0.0-canary.v20260217092349",
     "astro": "^5.17.1",
     "typescript": "^5.5.3"
   },

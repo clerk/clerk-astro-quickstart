@@ -1,5 +1,5 @@
 ---
-import { SignedIn, SignedOut, UserButton, SignInButton } from '@clerk/astro/components'
+import { Show, UserButton, SignInButton } from '@clerk/astro/components'
 
 const { title } = Astro.props
 ---
@@ -17,12 +17,12 @@ const { title } = Astro.props
 		<header>
       <h1>{title}</h1>
       <nav>
-        <SignedOut>
+        <Show when="signed-out">
           <SignInButton mode="modal" />
-        </SignedOut>
-        <SignedIn>
+        </Show>
+        <Show when="signed-in">
           <UserButton />
-        </SignedIn>
+        </Show>
       </nav>
     </header>
 		<slot />
