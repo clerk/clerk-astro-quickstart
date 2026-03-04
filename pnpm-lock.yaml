@@ -15,8 +15,8 @@ importers:
         specifier: ^9.5.2
         version: 9.5.2(astro@5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1))
       '@clerk/astro':
-        specifier: 3.0.0-canary.v20260217092349
-        version: 3.0.0-canary.v20260217092349(astro@5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 3.0.0
+        version: 3.0.0(astro@5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       astro:
         specifier: ^5.17.1
         version: 5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1)
@@ -100,18 +100,18 @@ packages:
     resolution: {integrity: sha512-VERIM64vtTP1C4mxQ5thVT9fK0apjPFobqybMtA1UdUujWka24ERHbRHFGmpbbhp73MhV+KSsHQH9C6uOTdEQA==}
     engines: {node: '>=18'}
 
-  '@clerk/astro@3.0.0-canary.v20260217092349':
-    resolution: {integrity: sha512-jM4tP8jAD4LLMUw0lV8a99iESXrsK8ihu+7j5b4iaH32A6kQ3RgxX6CR01hblyy1CLlwNzHYwNZtg/n0NOrdVA==}
+  '@clerk/astro@3.0.0':
+    resolution: {integrity: sha512-jwrjR9fNjQEztio+wb8pp/LxoahS7Jf3u5wqJA8PRVgFQ1Y/cVeCHu8+PF049dedXS15Qf9lk2DZQr2bdTzAsQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
-      astro: ^4.15.0 || ^5.0.0
+      astro: ^4.15.0 || ^5.0.0 || ^6.0.0
 
-  '@clerk/backend@3.0.0-canary.v20260217092349':
-    resolution: {integrity: sha512-3PF12E/0GIpVfUiWkPyl5sOegh85DweafRCjb12veg1hTh0Q9b00Xrt83MlDT+kthv6Owhlk9R2UTsXMDU59ig==}
+  '@clerk/backend@3.0.0':
+    resolution: {integrity: sha512-y7P7mbc0vam0TjAzhrGUVaL95INp9ljgblxEjC+wXOfTI34dPKuWbIGv/S9bt3nIhbFSO+JM0rh9Qc8FvoZu2A==}
     engines: {node: '>=20.9.0'}
 
-  '@clerk/shared@4.0.0-canary.v20260217092349':
-    resolution: {integrity: sha512-ykshQmXV6YwZvqmrpb63/pAAlU0YZJIoR5gcm8l2vxkh8Af4Qz7xoDAQolWcQGd8yl2HwbrdMYL1Yf9Wc/wqKQ==}
+  '@clerk/shared@4.0.0':
+    resolution: {integrity: sha512-Z3QhVud7FM9SBgSGxyUdC+nDg6vro+5zJ5gDO1To3FDzRLWKW4xIGd5y8UBqWZMMMHWaSDiZvYlUynb+gs8PnQ==}
     engines: {node: '>=20.9.0'}
     peerDependencies:
       react: ^18.0.0 || ~19.0.3 || ~19.1.4 || ~19.2.3 || ~19.3.0-0
@@ -2062,10 +2062,10 @@ snapshots:
     dependencies:
       fontkitten: 1.0.2
 
-  '@clerk/astro@3.0.0-canary.v20260217092349(astro@5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/astro@3.0.0(astro@5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/backend': 3.0.0-canary.v20260217092349(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@clerk/shared': 4.0.0-canary.v20260217092349(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/backend': 3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/shared': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       astro: 5.17.1(@types/node@22.15.17)(rollup@4.40.2)(typescript@5.5.3)(yaml@2.7.1)
       nanoid: 5.1.6
       nanostores: 1.0.1
@@ -2073,16 +2073,16 @@ snapshots:
       - react
       - react-dom
 
-  '@clerk/backend@3.0.0-canary.v20260217092349(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/backend@3.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
-      '@clerk/shared': 4.0.0-canary.v20260217092349(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@clerk/shared': 4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       standardwebhooks: 1.0.0
       tslib: 2.8.1
     transitivePeerDependencies:
       - react
       - react-dom
 
-  '@clerk/shared@4.0.0-canary.v20260217092349(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@clerk/shared@4.0.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@tanstack/query-core': 5.90.16
       dequal: 2.0.3
