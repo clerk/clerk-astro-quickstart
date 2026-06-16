@@ -1,6 +1,7 @@
 import { clerkClient } from '@clerk/astro/server'
+import type { APIContext } from 'astro'
 
-export async function GET(context) {
+export async function GET(context: APIContext) {
   // The `Auth` object gives you access to properties like `isAuthenticated` and `userId`
   // Accessing the `Auth` object differs depending on the SDK you're using
   // https://clerk.com/docs/references/backend/types/auth-object#how-to-access-the-auth-object
@@ -16,7 +17,7 @@ export async function GET(context) {
   // Use the Backend SDK to get the user's OAuth access token
   const clerkResponse = await clerkClient(context).users.getUserOauthAccessToken(userId, provider)
 
-  const accessToken = clerkResponse[0].token || ''
+  const accessToken = clerkResponse.data[0].token || ''
 
   if (!accessToken) {
     return new Response('Access token not found', { status: 401 })
