@@ -21,6 +21,7 @@ const { title } = Astro.props
           <SignInButton mode="modal" />
         </Show>
         <Show when="signed-in">
+          <a href="/protected">Protected</a>
           <UserButton />
         </Show>
       </nav>
