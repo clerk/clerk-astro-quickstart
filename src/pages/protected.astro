@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+// Use `auth()` to read the session on the server and protect this page.
+// Unlike the `<Show>` component, which only controls what renders, this is
+// the real access check: a signed-out user who navigates here is redirected.
+const { isAuthenticated, userId } = Astro.locals.auth()
+
+if (!isAuthenticated) {
+  return Astro.redirect('/')
+}
+---
+
+<Layout title="Protected">
+  <p>Welcome! Your user ID is <code>{userId}</code>.</p>
+</Layout>
