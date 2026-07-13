@@ -9,7 +9,7 @@
 </p>
 <div align="center">
   <h1>
-    Clerk and Astro Quickstart 
+    Clerk and Astro Quickstart
   </h1>
   <a href="https://www.npmjs.com/package/@clerk/astro">
     <img alt="Downloads" src="https://img.shields.io/npm/dm/@clerk/astro" />
