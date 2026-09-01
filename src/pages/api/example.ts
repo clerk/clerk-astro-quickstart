@@ -17,7 +17,7 @@ export async function GET(context: APIContext) {
   // Use the Backend SDK to get the user's OAuth access token
   const clerkResponse = await clerkClient(context).users.getUserOauthAccessToken(userId, provider)
 
-  const accessToken = clerkResponse.data[0].token || ''
+  const accessToken = clerkResponse.data[0]?.token ?? ''
 
   if (!accessToken) {
     return new Response('Access token not found', { status: 401 })
